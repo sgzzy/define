@@ -1,0 +1,23 @@
+{
+  "name": "define",
+  "version": "1.0.0",
+  "description": "A Simple Module loading tool",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgzzy/define.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgzzy/define/issues"
+  },
+  "homepage": "https://github.com/sgzzy/define#readme"
+}

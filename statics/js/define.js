@@ -113,3 +113,21 @@ var runWaiting = (function () {
     }
   }
 })();
+
+
+
+function wrapper(generatorFunction) {
+  console.log(...args);
+  return function (...args) {
+    let generatorObject = generatorFunction(...args);
+    generatorObject.next();
+    return generatorObject;
+  };
+}
+
+const wrapped = wrapper(function* () {
+  console.log(`First input: ${yield}`);
+  return 'DONE';
+});
+
+wrapped().next('hello!')
