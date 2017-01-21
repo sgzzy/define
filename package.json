@@ -1,23 +1,13 @@
 {
-  "name": "define",
+  "name": "webpack-sample-project",
   "version": "1.0.0",
-  "description": "A Simple Module loading tool",
-  "main": "index.js",
-  "dependencies": {
-    "webpack": "^2.2.0"
-  },
-  "devDependencies": {},
+  "description": "Sample webpack project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sgzzy/define.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sgzzy/define/issues"
-  },
-  "homepage": "https://github.com/sgzzy/define#readme"
+  "author": "zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.0"
+  }
 }
