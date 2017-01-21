@@ -4,3 +4,6 @@ node_modules
 #Logs
 logs
 *.log
+
+#Optional VS Code setting directory
+.vscode
