@@ -7,3 +7,6 @@ logs
 
 #Optional VS Code setting directory
 .vscode
+
+#Optional Webstorm setting directory
+.idea
