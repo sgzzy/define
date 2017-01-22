@@ -1,4 +1,4 @@
 //main.js 
-var greeter = require('./Greter.js');
+var greeter = require('./Greeter.js');
 
 document.getElementById('root').appendChild(greeter());
