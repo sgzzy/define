@@ -21,10 +21,15 @@ module.exports = {
         options: {
           presets: ["es-2015"]
         }
+      },
+      {
+        test: /\.css$/,
+        include: /node_modules/,
+        loader: "style!css"
       }
     ]
   },
-
+  
   // 配置本地服务器选项
   devServer: {
     contentBase: "./statics/demos", // 本地服务器所加载的页面所在的目录
